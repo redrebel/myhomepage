@@ -1,3 +1,5 @@
+[markdown](http://teragoon.wordpress.com/2012/04/04/github에서-readmemd-작성하기markdown-문법)
+
 # dddddd
 
 
@@ -17,15 +19,12 @@ GFM은
 코드 표현방법
 ———-
 
-“`
+`
 var i = 0
-“`
 
-
-'var i = 0'
-
-   var foo = “bar”
-   <html> </html>
+    var foo = “bar”
+    <html> </html>
+    
 ##리스트 표현방법
 + 플러스
 * 별
