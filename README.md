@@ -1,4 +1,4 @@
-[markdown](http://teragoon.wordpress.com/2012/04/04/github에서-readmemd-작성하기markdown-문법)
+[github 에서 markdown 작성 문법](http://teragoon.wordpress.com/2012/04/04/github에서-readmemd-작성하기markdown-문법)
 
 # dddddd
 
