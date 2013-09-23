@@ -1,24 +1,125 @@
 @charset "utf-8";
-
-@font-face {font-family:"yun330";}
-body {background:#36373c;}
-body, div, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, p, form, img, a, fieldset, input, table, tr, th, td, textarea, pre {margin:0; padding:0; font-family:"yun330", Arial !important; color:#808080; line-height:140%;}
-h1{font-weight:normal; font-size:34px;}
-h2{font-weight:normal; font-size:30px;}
-h3{font-weight:normal; font-size:26px;}
-h4, h5, h6{font-weight:normal; font-size:20px;}
-
-em, i {font-style:normal;}
-ul, ol, li {list-style:none}
-fieldset, img {border:none}
-
-table {width:100%; border-collapse:collapse;}
-button {background:none; border:0; padding:0; margin:0;}
-img {vertical-align:middle;}
-
-a {text-decoration:none;}
-a:hover, a:active {text-decoration:none;}
-
-caption, legend, .hidden {position:absolute; width:0; height:0; font-size:0; line-height:0; overflow:hidden; visibility:hidden; display:none; text-indent:-9999px;}
-
-.body {font-size:18px}
+@font-face {
+  font-family: "yun330";
+}
+body {
+  background: #36373c;
+}
+@media only screen and (min-height: 320px) and (max-height: 480px) {
+  body {
+    background: white;
+  }
+}
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+p,
+form,
+img,
+a,
+fieldset,
+input,
+table,
+tr,
+th,
+td,
+textarea,
+pre {
+  margin: 0;
+  padding: 0;
+  font-family: "yun330", Arial !important;
+  color: gray;
+  line-height: 140%;
+}
+h1 {
+  font-weight: normal;
+  font-size: 34px;
+}
+h2 {
+  font-weight: normal;
+  font-size: 30px;
+}
+h3 {
+  font-weight: normal;
+  font-size: 26px;
+}
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-size: 20px;
+}
+em,
+i {
+  font-style: normal;
+}
+ul,
+ol,
+li {
+  list-style: none;
+  margin: 5px;
+  font-size: 16px;
+}
+fieldset,
+img {
+  border: none;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+button {
+  background: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+img {
+  vertical-align: middle;
+}
+a {
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  color: red;
+  text-decoration: none;
+}
+caption,
+legend,
+.hidden {
+  position: absolute;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  display: none;
+  text-indent: -9999px;
+}
+#main {
+  width: 600px;
+  margin: 0 auto;
+}
+.body {
+  font-size: 16px;
+}
+/*변수처리*/
+#footer {
+  height: 20px;
+  width: 30px;
+  background-color: #cc0000;
+  clear: both;
+}
